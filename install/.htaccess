@@ -1,0 +1,3 @@
+# deny all for this directory
+order deny, allow
+deny from all

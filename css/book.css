@@ -1,0 +1,80 @@
+
+.nav_container {
+	background-color: #444;
+	margin-bottom: 20px;
+	color: #fff;
+	padding: 15px;
+}
+
+ul.collection {
+	width: auto;
+	float: left;
+	margin-right: 30px;
+}
+
+ul.collection a.btn-edit,
+button.btn-delete-books {
+	float: right;
+	padding: 2px 6px;
+	margin-bottom: 15px;
+}
+
+ul.collection p.collectionTitle {
+	font-size: 1.3em;
+	font-weight: bold;
+	border-bottom: 2px solid #000;
+	padding-bottom: 5px;
+}
+
+ul.collection p.collectionTitle a {
+	font-size: 0.7em;
+}
+
+.book-form .form-group label {
+	display: inline-block;
+	width: 120px;
+}
+
+.book-form .panel .book {
+	background-color: #e2e2e2;
+	padding: 10px;
+	margin-bottom: 15px;
+}
+
+.modal-body .wait {
+	width: 180px;
+	font-size: 2em;
+	margin: 20px auto;
+	font-weight: bold;
+}
+
+.modal-body .wait img {
+	display: inline-block;
+	left: 30px;
+	position: relative;
+}
+
+p.submit_paragraph {
+	margin-top: -10px;
+	padding-top: 20px;
+	border-top: 1px solid #444;
+}
+
+@media (min-width: 992px) {
+	.main_container .row,
+	.nav_container .row {
+		width: 992px;
+		margin: 0 auto;
+	}
+
+	.nav_container p.title {
+		float: left;
+		width: 30%;
+		font-size: 2em;
+	}
+
+	.nav_container p {
+		width: 70%;
+		float: left;
+	}
+}
